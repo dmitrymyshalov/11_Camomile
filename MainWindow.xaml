@@ -1,0 +1,118 @@
+﻿<Window x:Class="Camomile.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Camomile"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="400">
+    <Grid>
+        <Path Stroke="Black">
+            <Path.Data>
+                <EllipseGeometry RadiusX="40" RadiusY="40" Center="200,150"/>
+            </Path.Data >
+            <Path.Fill>
+                <RadialGradientBrush GradientOrigin="0.7,0.35" RadiusX="0.4" RadiusY="0.4">
+                    <GradientStop Color="White" Offset="0.1"/>
+                    <GradientStop Color="#FFFFD618" Offset="0.71"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+        </Path>
+
+        <Path HorizontalAlignment="Left" Height="53" Margin="190,58,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="17">
+            <Path.Data>
+                <PathGeometry Figures="M194.75,109.79 L189.5,73.580001 C189.5,73.580001 187.925,66.579402 190.8125,61.047319 193.7,55.515236 202.98415,56.264442 204.97171,60.834068 206.95926,65.403695 208.66288,72.37503 203.55203,108.81818"/>
+            </Path.Data>
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,0" StartPoint="0.5,1">
+                    <GradientStop Color="#FFCAF5E8"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+
+        <Path HorizontalAlignment="Left" Height="49" Margin="220,73,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="42">
+            <Path.Data>
+                <PathGeometry Figures="M220.25,114.79 L240.25,81.580001 C240.25,81.580001 242.25,77.343211 247.5,74.827302 252.75,72.311393 264.15278,71.370527 261.125,83.609104 258.09722,95.847681 250.52687,97.77339 229.08075,120.76213"/>
+            </Path.Data>
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,0" StartPoint="0.5,1">
+                    <GradientStop Color="#FFCAF5E8"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+
+        <Path HorizontalAlignment="Left" Height="22" Margin="240,136,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="65">
+            <Path.Data>
+                <PathGeometry Figures="M239.5,140.04 L283.5,135.57999 C283.5,135.57999 291.75,134.50958 297,136.46084 302.25,138.41209 309.60965,149.59347 299.52193,156.72294 289.43421,163.8524 239.75409,156.47285 239.75409,156.47285"/>
+            </Path.Data>
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                    <GradientStop Color="#FFCAF5E8"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+
+        <Path HorizontalAlignment="Left" Height="51" Margin="228,168,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="46">
+            <Path.Data>
+                <PathGeometry Figures="M236.5,167.79 L270,197.07999 C270,197.07999 272.28409,198.88789 273.80682,204.44288 275.32955,209.99788 272.54646,217.71938 263.21975,218.48298 253.89305,219.24658 252.03815,212.69385 252.03815,212.69385 L228.85829,178.48913"/>
+            </Path.Data>
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFCAF5E8"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+
+        <Path HorizontalAlignment="Left" Height="32" Margin="111,166,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="58">
+            <Path.Data>
+                <PathGeometry Figures="M167.75,174.29 L134,194.32999 C134,194.32999 128.54044,197.37607 121.09559,197.37607 113.65074,197.37607 108.6875,192.39751 113.40257,185.12037 118.11765,177.84324 162.57445,166.3002 162.57445,166.3002"/>
+            </Path.Data>
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFCAF5E8"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+
+        <Path HorizontalAlignment="Left" Height="27" Margin="88,118,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="75">
+            <Path.Data>
+                <PathGeometry Figures="M161.5,136.29 L111.75,119.57999 C111.75,119.57999 102.04875,117.16196 97.07375,119.86505 92.09875,122.56814 82.206158,125.50964 94.100234,136.08344 105.99431,146.65723 159.03286,144.44411 159.03286,144.44411"/>
+            </Path.Data>
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0,0.5" StartPoint="1,0.5">
+                    <GradientStop Color="#FFCAF5E8"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+
+        <Path HorizontalAlignment="Left" Height="49" Margin="126,75,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="50">
+            <Path.Data>
+                <PathGeometry Figures="M169.75,123.04 L134.25,94.580001 C134.25,94.580001 127.40357,90.300838 126.89643,83.948159 126.38929,77.595481 121.79482,72.930431 138.11998,73.444797 138.11998,73.444797 143.75769,73.705916 148.5994,79.13463 153.4411,84.563344 175.35618,117.39414 175.35618,117.39414"/>
+            </Path.Data>
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0,0.5" StartPoint="1,0.5">
+                    <GradientStop Color="#FFCAF5E8"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+
+        <Path HorizontalAlignment="Left" Height="365" Margin="187,188,0,0" Stroke="Green" StrokeThickness="5" Stretch="Fill" VerticalAlignment="Top" Width="47">
+            <Path.Data>
+                <PathGeometry Figures="M202,188 C202,188 273.5,321.6 200.5,438.6 200.5,438.6 171.14486,509 202,552.9"/>
+            </Path.Data>
+        </Path>
+
+        <Path Fill="#FF62AD1B" HorizontalAlignment="Left" Height="35" Margin="83,405,0,0" Stroke="Green" StrokeThickness="2" Stretch="Fill" VerticalAlignment="Top" Width="129">
+            <Path.Data>
+                <PathGeometry Figures="M212,439.04 C212,439.04 178.5,435.33 164.5,421.58 150.5,407.83 148.33,391.84 101.6,418.28 101.6,418.286 95,421.85 84.62,416.19 74.24,410.53 105.85,437.28 121,438.57 121,438.6 130.85,441.65 151.33,440.9 171.8,440.11 212,439 212,439 z"/>
+            </Path.Data>
+        </Path>
+    </Grid>
+</Window>
